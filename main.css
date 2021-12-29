@@ -1,4 +1,7 @@
-html,
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-x: hidden;
   padding-top: 30px;
@@ -34,13 +37,35 @@ h2 {
     text-align: center;
 }
 
-.btn {
-    font-size: 18px;
+
+@media (max-width: 768px) {
+  .btn {
+    font-size:12px;
+    padding:4px 6px;
+  }
 }
 
-.btn-disabled {
-    /*background-color: #f4f4f4;*/
+@media (min-width: 768px) {
+  .btn {
+    font-size:14px;
+    padding:6px 12px;
+  }
 }
+
+@media (min-width: 992px) {
+  .btn {
+    font-size:16px;
+    padding:8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    padding:10px 16px;
+    font-size:18px;
+  }
+}
+
 
 .jumbotron h2 {
   font-size: 36px;
@@ -77,8 +102,8 @@ h2 {
 .gradientbackground{
   margin:15px 30px 0px 30px;
   border-radius:10px;
-  background-color: #8BC6EC;
-background-image: linear-gradient(135deg, #c4efc8, #c4efe8);
+  background-color: #ced8ef;
+background-image: linear-gradient(135deg, #ced8ef, #cee8ef);
 
 }
 
