@@ -113,7 +113,7 @@ background-image: linear-gradient(135deg, #ced8ef, #cee8ef);
   rgba(255, 255, 255, 0.75), 
   rgba(255, 255, 255, 0.0)
   ),
-  url(img/title.png);
+  url(img/titleimage.png);
   background-repeat: no-repeat;
-  height: 300px;
+  height: 456px;
 }
